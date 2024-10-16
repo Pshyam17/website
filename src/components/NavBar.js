@@ -23,16 +23,16 @@ class NavBar extends React.Component {
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
-              <Nav.Link href="mailto:gazijarin@gmail.com">
+              <Nav.Link href="mailto:p.shyam.1701@gmail.com">
                 <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
               </Nav.Link>
-              <Nav.Link href="https://github.com/gazijarin" target="_blank">
+              <Nav.Link href="https://github.com/Pshyam17" target="_blank">
                 <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/gazi-jarin-3644b0172/" target="_blank">
+              <Nav.Link href="https://www.linkedin.com/in/preethi-shyam-1a0b591b2/" target="_blank">
                 <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
               </Nav.Link>
-              <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
+              <Nav.Link href="" target="_blank">
                 <BorderColorIcon style={{ fontSize: 20 }}></BorderColorIcon>
               </Nav.Link>
             </Nav>
