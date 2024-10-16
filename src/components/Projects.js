@@ -123,7 +123,7 @@ class Projects extends React.Component {
         <div className="section-header ">
           <span className="section-title"> projects</span>
         </div>
-        <Carousel>
+       /* <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (
             <Carousel.Item>
               <img
@@ -149,6 +149,7 @@ class Projects extends React.Component {
             </Carousel.Item>
           ))}
         </Carousel>
+        */
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
