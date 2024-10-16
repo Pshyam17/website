@@ -20,7 +20,7 @@ class Projects extends React.Component {
       activeKey: eventKey
     });
   }
-  /*
+  
   render() {
     const spotlightProjects = {
       "Authentication module": {
@@ -69,7 +69,7 @@ class Projects extends React.Component {
         image: "/assets/portfolio.png"
       }
     };
-    */
+    
     const projects = {
        "Authentication module": {
         title: "Authentication module",
