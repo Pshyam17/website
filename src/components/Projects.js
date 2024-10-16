@@ -23,6 +23,7 @@ class Projects extends React.Component {
   
   render() {
     const spotlightProjects = {
+      /*
       "Authentication module": {
         title: "Authentication module",
         desc:
@@ -68,6 +69,7 @@ class Projects extends React.Component {
         open: "https://github.com/Pshyam17/website",
         image: "/assets/portfolio.png"
       }
+      */
     };
     
     const projects = {
