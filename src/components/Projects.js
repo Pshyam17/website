@@ -22,29 +22,38 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Authentication module": {
+        title: "Authentication module",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
+          " Developed the authentication module for a native android application ",
+        techStack: "JAVA, FLUTTER",
+        link: "https://github.com/Pshyam17/authentication",
+        open: "https://github.com/Pshyam17/authentication",
         image: "/assets/nomansland.png"
       },
-      Truth: {
-        title: "truth",
+      "Foggy": {
+        title: "Foggy",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
+          "A dementia prediction model using Random Forest.",
+        techStack: "R programming",
+        link: "https://github.com/Pshyam17/dementia",
+        open: "https://github.com/Pshyam17/dementia",
         image: "/assets/truth.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      "Ladybug": {
+        title: "Ladybug",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
+          "A malware detection CNN using tensorflow and keras.",
+        techStack: "PYTHON",
+        link: "https://github.com/Pshyam17/Model",
+        open: "https://github.com/Pshyam17/Model",
+        image: "/assets/truth.png"
+      },
+      "STINC": {
+        title: "stinc",
+        desc:
+          "An android java application that allows users to post and vote on neighborhood issues.",
+        techStack: "Java, ANDROID STUDIO",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
         image: "/assets/talltales.png"
@@ -54,53 +63,56 @@ class Projects extends React.Component {
         desc:
           "A small JS library that helps with clear and succinct data presentation.",
         techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
+        link: "https://github.com/Pshyam17/website",
+        open: "https://github.com/Pshyam17/website",
         image: "/assets/portfolio.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+       "Authentication module": {
+        title: "Authentication module",
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          " Developed the authentication module for a native android application ",
+        techStack: "JAVA, FLUTTER",
+        link: "https://github.com/Pshyam17/authentication",
+        open: "https://github.com/Pshyam17/authentication",
+        image: "/assets/nomansland.png"
       },
-      "Adam A.I.": {
+      "Foggy": {
+        title: "Foggy",
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "A dementia prediction model using Random Forest.",
+        techStack: "R programming",
+        link: "https://github.com/Pshyam17/dementia",
+        open: "https://github.com/Pshyam17/dementia",
+        image: "/assets/truth.png"
       },
-      "Distributed Logging and Monitoring System": {
+      "Ladybug": {
+        title: "Ladybug",
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "A malware detection CNN using tensorflow and keras.",
+        techStack: "PYTHON",
+        link: "https://github.com/Pshyam17/Model",
+        open: "https://github.com/Pshyam17/Model",
+        image: "/assets/truth.png"
       },
-      "Odin Bot": {
+      "STINC": {
+        title: "stinc",
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
+          "An android java application that allows users to post and vote on neighborhood issues.",
+        techStack: "Java, ANDROID STUDIO",
+        link: "https://github.com/gazijarin/TallTales",
+        open: "https://talltales.herokuapp.com/",
+        image: "/assets/talltales.png"
       },
-      "Game Centre": {
+      Portfolio: {
+        title: "portfolio.js",
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+          "A small JS library that helps with clear and succinct data presentation.",
+        techStack: "NODE.JS (EXPRESS.JS)",
+        link: "https://github.com/Pshyam17/website",
+        open: "https://github.com/Pshyam17/website",
+        image: "/assets/portfolio.png"
       }
     };
 
