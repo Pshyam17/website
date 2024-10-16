@@ -23,7 +23,7 @@ class Projects extends React.Component {
   
   render() {
     const spotlightProjects = {
-      /*
+      
       "Authentication module": {
         title: "Authentication module",
         desc:
@@ -40,7 +40,7 @@ class Projects extends React.Component {
         techStack: "R programming",
         link: "https://github.com/Pshyam17/dementia",
         open: "https://github.com/Pshyam17/dementia",
-        image: "/assets/artificial-intelligence_900961.png"
+        image: "public/assets/AI.png"
       },
       "Ladybug": {
         title: "Ladybug",
@@ -49,7 +49,7 @@ class Projects extends React.Component {
         techStack: "PYTHON",
         link: "https://github.com/Pshyam17/Model",
         open: "https://github.com/Pshyam17/Model",
-        image: "public/assets/malware_7007109.png"
+        image: "public/assets/MALWARE.png"
       },
       "STINC": {
         title: "stinc",
@@ -69,7 +69,7 @@ class Projects extends React.Component {
         open: "https://github.com/Pshyam17/website",
         image: "/assets/portfolio.png"
       }
-      */
+      
     };
     
     const projects = {
