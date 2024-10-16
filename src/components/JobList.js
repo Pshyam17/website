@@ -81,15 +81,7 @@ const JobList = () => {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
-  const experienceItems = {
-    Company: {
-      jobTitle: " @",
-      duration: "",
-      desc: [
-        
-      ]
-    }
-    
+  const experienceItems = {    
   };
 
   const handleChange = (event, newValue) => {
