@@ -39,7 +39,7 @@ class Projects extends React.Component {
         techStack: "R programming",
         link: "https://github.com/Pshyam17/dementia",
         open: "https://github.com/Pshyam17/dementia",
-        image: "/assets/truth.png"
+        image: "/assets/artificial-intelligence_900961.png"
       },
       "Ladybug": {
         title: "Ladybug",
@@ -48,7 +48,7 @@ class Projects extends React.Component {
         techStack: "PYTHON",
         link: "https://github.com/Pshyam17/Model",
         open: "https://github.com/Pshyam17/Model",
-        image: "/assets/truth.png"
+        image: "public/assets/malware_7007109.png"
       },
       "STINC": {
         title: "stinc",
@@ -57,7 +57,7 @@ class Projects extends React.Component {
         techStack: "Java, ANDROID STUDIO",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+        image: "/assets/conversation_3680054.png"
       },
       Portfolio: {
         title: "portfolio.js",
