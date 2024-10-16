@@ -21,7 +21,7 @@ class About extends React.Component {
       <p>
         I am currently a <b> Computer science student </b> at
         Vishveshvaraiah Technological institute. 
-        <a href="https://www.ox.ac.uk/about">link</a>.
+       
       </p>
     );
     const two = (
