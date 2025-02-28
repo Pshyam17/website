@@ -105,8 +105,8 @@ class Projects extends React.Component {
         desc:
           "An android java application that allows users to post and vote on neighborhood issues.",
         techStack: "Java, ANDROID STUDIO",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
+        link: "https://github.com/Pshyam17/stinc",
+        open: "https://github.com/Pshyam17/stinc",
         image: "/assets/talltales.png"
       },
       Portfolio: {
